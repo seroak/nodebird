@@ -1,0 +1,39 @@
+{
+  "name": "react-nodebird-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 3060"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.5.2",
+    "axios": "^1.4.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "Faker": "^0.7.2",
+    "immer": "^10.0.2",
+    "loadash": "^1.0.0",
+    "next": "^13.4.4",
+    "next-redux-wrapper": "^8.1.0",
+    "prop-types": "^15.8.1",
+    "react-redux": "^8.1.0",
+    "react-slick": "^0.29.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "^1.2.3",
+    "redux-thunk": "^2.4.2",
+    "shortid": "^2.2.16",
+    "styled-components": "^5.3.11",
+    "swr": "^2.1.5"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "eslint": "^8.42.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}

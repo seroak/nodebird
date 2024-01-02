@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+.body {
+  background-color: #fff6ec;
+  font-family: "Jua", sans-serif;
+}
+.status {
+  background-color: #ffffff;
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid;
+  border-color: black;
+}
+.status_box1 {
+  font-size: 1.2em;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.status_box2 {
+  font-size: smaller;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mid {
+  display: flex;
+  background-color: #ffd890;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+
+  font-size: 2rem;
+  padding: 10px;
+  width: 98%;
+  height: 300px;
+  max-width: 1200px;
+  min-width: 500px;
+
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgb(139, 139, 139);
+
+  text-align: center;
+}
+.main_title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 80px;
+}
+.limit {
+  font-size: 1rem;
+}
+.control {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+.picture {
+  display: flex;
+  width: 49%;
+  max-height: 600px;
+  padding: 20px;
+  font-size: 200px;
+  line-height: auto;
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: white;
+}
+.img {
+  flex: 1;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: auto;
+  max-height: 100%;
+  display: block;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  max-width: 600px;
+  height: auto;
+  float: right;
+  padding: 20px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  line-height: auto;
+  background-color: white;
+}
+.start {
+  font-size: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 1%;
+  height: 100px;
+  width: 100px;
+  font-family: "Jua", sans-serif;
+  text-align: center;
+  background-color: rgba(230, 230, 230, 0.918);
+}
+.number {
+  max-width: 100%;
+  min-width: 100%;
+  width: 400px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}

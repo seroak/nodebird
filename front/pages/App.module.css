@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+.body {
+  background-color: #fff6ec;
+  font-family: "Jua", sans-serif;
+}
+.status {
+  background-color: #ffffff;
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid;
+  border-color: black;
+}
+.status_box1 {
+  font-size: 1.2em;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.status_box2 {
+  font-size: smaller;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.mid {
+  display: flex;
+  background-color: #ffd890;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_title {
+  padding-top: 10vh;
+  font-size: xx-large;
+}
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: space-evenly;
+  padding-top: 100px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  padding: 15px;
+  width: 120px;
+  height: 120px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10%;
+  background-color: cornsilk;
+  box-shadow: 1px 1px 3px rgb(139, 139, 139);
+  margin-right: 10px;
+  text-align: center;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-size: 2rem;
+  padding: 15px;
+  width: 120px;
+  height: 120px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10%;
+  background-color: cornsilk;
+  box-shadow: 1px 1px 3px rgb(139, 139, 139);
+  margin-right: 10px;
+  text-align: center;
+}
